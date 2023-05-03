@@ -90,7 +90,29 @@ public class nomenclatura extends Fragment {
             else if (nCarb == 10){
                 numeroC = "Dec";
             }
-            String tipoL = String.valueOf(tipoLigacao.getText());
+            String tipo = String.valueOf(tipoLigacao.getText());
+            String tipoL = "";
+            if (tipo == "Simples"){
+                tipoL = "an";
+            }
+            else if(tipo == "Dupla"){
+                tipoL = "en";
+            }
+            else if(tipo == "Tripla"){
+                tipoL = "in";
+            }
+            else if(tipo == "Duas duplas"){
+                tipoL = "dien";
+            }
+            else if(tipo == "Três duplas"){
+                tipoL = "trien";
+            }
+            else if(tipo == "Duas Triplas"){
+                tipoL = "din";
+            }
+            else if(tipo == "Três triplas"){
+                tipoL = "trin";
+            }
 
             String grupoF = String.valueOf(grupoFuncional.getText());
             String grupo = "";

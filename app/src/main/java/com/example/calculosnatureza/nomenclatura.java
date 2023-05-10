@@ -47,8 +47,8 @@ public class nomenclatura extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_campo_eletrico, container, false);
-        quantidadeCarbonos = v.findViewById(R.id.quantiaEletrons);
+        View v = inflater.inflate(R.layout.fragment_nomenclatura, container, false);
+        quantidadeCarbonos = v.findViewById(R.id.numeroCarbonos);
         tipoLigacao = v.findViewById(R.id.tipoLigacao);
         grupoFuncional = v.findViewById(R.id.grupoFuncional);
         resultado = v.findViewById(R.id.resultado3);

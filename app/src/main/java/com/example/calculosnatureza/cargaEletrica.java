@@ -48,7 +48,7 @@ public class cargaEletrica extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_campo_eletrico, container, false);
+        View v = inflater.inflate(R.layout.fragment_carga_eletrica, container, false);
         quantidadeEletrons = v.findViewById(R.id.quantiaEletrons);
         resultado2 = v.findViewById(R.id.resultado2);
         calcula2 = v.findViewById(R.id.calcula2);
